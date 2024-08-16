@@ -67,11 +67,11 @@ div {
     border-radius: 12px;
     padding-left: 17px;
     padding-right: 17px;
-    background-color: var(--two-grey);
+    background-color: var(--zero-black);
     letter-spacing: 1px;
 }
 
-.contact-button {
+/* .contact-button: :hover {
     
-}
+} */
 
