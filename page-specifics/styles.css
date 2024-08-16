@@ -34,6 +34,8 @@ div {
     padding: 0;
 }
 
+/* ----- TOP BAR SECTION ----- */
+
 .top-bar {
     height: 68px;
     background-color: var(--one-black);
@@ -75,11 +77,19 @@ div {
     letter-spacing: 1px;
     cursor: pointer;
     transition: all 0.15s;
+    user-select: none;
 }
 
 .contact-button:hover {
     background-color: var(--three-grey);
     border-color: var(--two-blue);
-    
 }
+
+.contact-button:active {
+    background-color: var(--four-grey);
+    border-color: var(--four-blue);
+}
+
+/* ----- CENTAL TITLE SECTION ----- */
+
 
