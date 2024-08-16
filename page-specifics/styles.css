@@ -1,3 +1,7 @@
+/* @media screen {
+    max-width: 640px;
+} */
+
 :root {
 
     /* MONOCHROME / BLACKS */
@@ -69,9 +73,13 @@ div {
     padding-right: 17px;
     background-color: var(--zero-black);
     letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.15s;
 }
 
-/* .contact-button: :hover {
+.contact-button:hover {
+    background-color: var(--three-grey);
+    border-color: var(--two-blue);
     
-} */
+}
 
