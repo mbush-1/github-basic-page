@@ -2,10 +2,12 @@
     "projects":
     [
         {
-            "name": "String Evaluator"
+            "name": "PROJECT 1",
+            "image": "page-specifics/images/image.jpg",
+            "description": "This is project one..",
+            "link": "https://replit.com/@MBUSH1/isc3ufirstprogram?v=1"
         }
-
-
+       
     ]
 
 }
