@@ -22,6 +22,7 @@
 p {
     font-family: titillium web;
     letter-spacing: 1px;
+    color: var(--two-grey);
 }
 
 body {
@@ -34,12 +35,17 @@ div {
     padding: 0;
 }
 
+a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
 /* ----- TOP BAR SECTION ----- */
 
 .top-bar {
     height: 68px;
     background-color: var(--one-black);
-    color: var(--four-blue);
     display: flex;
     align-items: center;
 }
@@ -62,7 +68,7 @@ div {
 }
 
 .contact-button {
-    font-family: titillium web;
+    font-family: "titillium web";
     font-weight: 500;
     border-color: var(--four-blue);
     border-style: inset;
@@ -78,6 +84,7 @@ div {
     cursor: pointer;
     transition: all 0.15s;
     user-select: none;
+    color: var(--four-blue);
 }
 
 .contact-button:hover {
@@ -86,11 +93,12 @@ div {
 }
 
 .contact-button:active {
-    background-color: var(--four-grey);
-    border-color: var(--four-blue);
+    background-color: var(--one-blue);
+    border-color: var(--four-grey);
+    color: var(--four-grey);
 }
 
-/* ----- CENTAL TITLE SECTION ----- */
+/* ----- CENTRAL TITLE SECTION ----- */
 
 .image-bar {
     height: 450px;
@@ -109,9 +117,9 @@ div {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 10px 20px 10px 20px; 
+    padding: 10px 20px 10px 20px;
     border-radius: 16px;
-    background-color: rgba(206, 220, 253, .25);   
+    background-color: rgba(206, 220, 253, .25);
     text-align: center;
 }
 
@@ -119,11 +127,74 @@ div {
 
 .projects-section {
     display: flex;
+    height: 480px; /* TEMPORARY: FIX THIS*/
     justify-content: space-evenly;
+    align-items: center;
+    margin: 0
 }
 
 .project {
+    height: 400px;
+    margin: 0;
+    width: 300px;
+    padding: 0;
+    border: inset;
+    border-radius: 7px;
+    border-style: solid;
+    padding: 20px;
+}
 
+.project:hover {
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.8);
+}
+
+.project-thumbnail {
+    width: 100%;
+    border-radius: 7px;
+    margin: 0;
+    padding: 0;
+}
+
+.project-title {
+    color: var(--two-grey);
+    font-size: 23px;
+    margin: 0;
+    padding: 0;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-family: "titillium web";
+    font-weight: 600;
+    letter-spacing: 3px;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 7px;
+    background-color: var(--one-blue);
+    cursor: pointer;
+    transition: all 0.15s;
+}
+
+.project-title:hover {
+    background-color: var(--zero-blue);
+    border-color: var(--three-grey);
+}
+
+.project-title:active {
+    background-color: var(--four-grey);
+    border-color: var(--zero-blue);
+    color: var(--zero-blue);
 }
 
 
+.project-description {
+    font-size: 23px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 8px;
+    font-family: "titillium web";
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-align: justify;
+}
