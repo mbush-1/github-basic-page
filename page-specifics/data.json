@@ -2,10 +2,31 @@
     "projects":
     [
         {
-            "name": "PROJECT 1",
-            "image": "page-specifics/images/image.jpg",
-            "description": "This is project one..",
+            "name": "FIRST PROGRAM",
+            "image": "page-specifics/images/thumbnail-1.png",
+            "description": "Day one. My first ever lines written in Java. Includes: 'Hello World' and other basic stuff.",
             "link": "https://replit.com/@MBUSH1/isc3ufirstprogram?v=1"
+        },
+
+        {
+            "name": "CONVERSATIONS",
+            "image": "page-specifics/images/thumbnail-2.png",
+            "description": "First exercise of the course, highlights print statements, as well as a few concepts I had learned beforehand.",
+            "link": "https://replit.com/@MBUSH1/ISC3U-USER-CONVERSATION?v=1"
+        },
+
+        {
+            "name": "RPS SHOWDOWN",
+            "image": "page-specifics/images/thumbnail-3.png",
+            "description": "The classic rock paper scissors game with more action. Made to demonstrate condition statements.",
+            "link": "https://replit.com/@MBUSH1/ISC3U-RPS-SHOWDOWN?v=1"
+        },
+        
+        {
+            "name": "KOT REVIEW",
+            "image": "page-specifics/images/thumbnail-3.png",
+            "description": "Unit 1 documentation project: instead of google slides or docs, I took inspiration from ASCII's cowsay.",
+            "link": "https://replit.com/@MBUSH1/ICS3U-UNIT-1-KOT-REVIEW?v=1"
         }
        
     ]
