@@ -1,4 +1,4 @@
-fetch('/page-specifics/data.json')
+fetch('page-specifics/data.json')
     .then(res => res.json())
     .then(data => { // data is an array
 
